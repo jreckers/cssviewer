@@ -151,6 +151,9 @@ var CSSViewer_tableTagNames = new Array(
         "COL",
         "TR",
         "TH",
+        "ACatObj",
+        "ACatPanel",
+        "AttributeActionButtons",
         "TD"
 );
 
@@ -182,6 +185,10 @@ var CSSViewer_hexa = new Array(
 
 function GetCurrentDocument() {
         return window.document;
+}
+
+function gCurrentUser() {
+        return window.gCurrentUser
 }
 
 function IsInArray(array, name) {
